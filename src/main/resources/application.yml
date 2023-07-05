@@ -1,0 +1,19 @@
+spring:
+  application:
+    name:  BAW Process Export
+    title:  BAW Process Export
+    version:  1.0.0
+app:
+  message:
+    Copyright by SIA 2022 ${spring.application.name}
+
+# Server
+server:
+  port: 8888
+  servlet:
+   context-path: /process-export
+    
+config:
+  username: ${USERNAME}
+  password: ${PASSWORD}
+  baseUrl: ${BASE_URL}
